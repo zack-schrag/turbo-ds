@@ -1,0 +1,18 @@
+[project]
+name = "turbo-ds"
+version = "0.1.0"
+description = "Familiar Python data structures backed by cloud services"
+authors = [
+    {name = "Zack Schrag", email = "zackschrag@gmail.com"},
+]
+dependencies = [
+    "boto3>=1.29.3",
+    "boto3-stubs[essential]>=1.29.3",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"

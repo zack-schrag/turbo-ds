@@ -1,0 +1,14 @@
+{
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.acceptSuggestionOnEnter": "smart",
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.stubPath": "typings",
+    "editor.formatOnSave": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true
+}
