@@ -1,0 +1,2 @@
+class QueueDoesNotExist(BaseException):
+    pass
